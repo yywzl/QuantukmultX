@@ -1,5 +1,4 @@
 # 2023-02-23
-
 # https://javmost.xyz/
 HOST-SUFFIX, v3.fstats.xyz, REJECT
 HOST-SUFFIX, wpadmngr.com, REJECT
@@ -156,3 +155,18 @@ HOST-KEYWORD, in-page-push, REJECT
 # m.yhpdm.com
 HOST-SUFFIX, fg.knlk2md.cn, REJECT
 HOST-SUFFIX, tg.gtlpaj.com, REJECT
+
+# 以下增加一些其他APP规则
+# JD
+host-suffix, jdqd.jd.com, reject
+# > 谷歌
+HOST-SUFFIX,google-analytics.com, reject
+HOST-SUFFIX,googleadservices.com, reject
+HOST-SUFFIX,googleadsserving.cn, reject
+HOST-SUFFIX,video-ad-stats.googlesyndication.com, reject
+HOST-SUFFIX,tpc.googlesyndication.com, reject
+HOST-SUFFIX,pagead2.googlesyndication.com, reject
+HOST-SUFFIX,afs.googlesyndication.com, reject
+HOST-SUFFIX,www.googleadservices.com, reject
+HOST-SUFFIX,www.google-analytics.com, reject
+
