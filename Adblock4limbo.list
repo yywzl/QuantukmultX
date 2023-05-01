@@ -256,21 +256,6 @@ HOST-KEYWORD, mathtag, REJECT
 HOST-KEYWORD, pagespeed-mod, REJECT
 HOST-KEYWORD, in-page-push, REJECT
 
-# disqus
-HOST-SUFFIX, referrer.disqus.com, REJECT
-HOST-SUFFIX, links.services.disqus.com, REJECT
-HOST-SUFFIX, disqusads.com, REJECT
-HOST, glitter.services.disqus.com, REJECT
-HOST, juggler.services.disqus.com, REJECT
-HOST, tempest.services.disqus.com, REJECT
-HOST, mc.viglink.com, REJECT
-HOST, qa.viglink.com, REJECT
-HOST, ns4.viglink.com, REJECT
-HOST, ns2.viglink.com, REJECT
-HOST, ns3.viglink.com, REJECT
-HOST, apicdn.viglink.com, REJECT
-HOST-SUFFIX, cdn.viglink.com, REJECT
-
 # www.tz659.com
 HOST, nggfe.fdgem.com, REJECT
 HOST, rthmnj.xyz, REJECT
