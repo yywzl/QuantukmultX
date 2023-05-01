@@ -1,10 +1,6 @@
-
 # 2023-02-23
 
 # https://javmost.xyz/
-;HOST, delivery-node-aziz.voe-network.net, REJECT
-;HOST, inspiringaccurate.com, REJECT
-;HOST, track.aso1.net, REJECT
 HOST-SUFFIX, v3.fstats.xyz, REJECT
 HOST-SUFFIX, wpadmngr.com, REJECT
 HOST-SUFFIX, histats.com, REJECT
@@ -13,8 +9,6 @@ HOST-SUFFIX, mc.yandex.ru, REJECT
 HOST-SUFFIX, amung.us, REJECT
 HOST-SUFFIX, widgets.amung.us, REJECT
 HOST-SUFFIX, s10.histats.com, REJECT
-;HOST-SUFFIX, js.wpadmngr.com, REJECT
-;HOST-SUFFIX, suzihaza.com, REJECT
 HOST-SUFFIX, eyebrowscrambledlater.com, REJECT
 HOST-SUFFIX, a.realsrv.com, REJECT
 HOST-SUFFIX, media.aso1.net, REJECT
@@ -22,7 +16,6 @@ HOST-SUFFIX, js.wpshsdk.com, REJECT
 HOST-SUFFIX, js.wpushsdk.com, REJECT
 HOST-SUFFIX, 9e77b6e6e2.2e3f31faae.com, REJECT
 HOST-SUFFIX, playersb.com, REJECT
-;HOST-SUFFIX, dood.la, REJECT
 
 # https://www.tvc.cc/
 HOST-SUFFIX, 42yenxh.cn, REJECT
@@ -32,8 +25,6 @@ HOST-SUFFIX, pc.stgowan.com, REJECT
 
 # https://avple.tv/
 HOST-SUFFIX, tapioni.com, REJECT
-;HOST-SUFFIX, 107iwh.cn:4032, REJECT
-;HOST-SUFFIX, qinhemuye.com:443, REJECT
 HOST-SUFFIX, 107iwh.cn, REJECT
 HOST-SUFFIX, hbhuatie.com, REJECT
 HOST-SUFFIX, qinzhihao.com, REJECT
@@ -108,12 +99,9 @@ HOST-SUFFIX, ggsfq.com, REJECT
 HOST-SUFFIX, ad.pornimg.xyz, REJECT
 HOST-SUFFIX, yandex.ru, REJECT
 HOST-SUFFIX, awaitcola.com, REJECT
-;HOST-SUFFIX, jsdelivr.net, REJECT
 HOST-SUFFIX, wine-api.net, REJECT
-;HOST-KEYWORD, wixsite.com, REJECT
 HOST-SUFFIX, exosrv.com, REJECT
 HOST-SUFFIX, juicyads.com, REJECT
-;HOST-SUFFIX, wixstatic.com, REJECT
 HOST-SUFFIX, thumb.fvs.io, REJECT
 HOST-SUFFIX, itnuzleafan.com, REJECT
 HOST-SUFFIX, oawhaursaith.com, REJECT
@@ -143,7 +131,6 @@ HOST-SUFFIX, jads.co, REJECT
 
 # www.cocomanhua.com
 HOST-SUFFIX, exdynsrv.com, REJECT
-;HOST-SUFFIX, cloudfront.net, REJECT
 HOST-SUFFIX, d227cncaprzd7y.cloudfront.net, REJECT
 HOST-SUFFIX, d10lumateci472.cloudfront.net, REJECT
 
@@ -157,13 +144,9 @@ HOST-SUFFIX, pu0glv.cn, REJECT
 # hmtv.me
 HOST-SUFFIX, sentry.io, REJECT
 
-# www.porntrex.com/
-;HOST-SUFFIX, ads.bullionyield.com, REJECT
-
 # https://www.zhenbuka.com/
 HOST-KEYWORD, dlads, REJECT
 HOST, dagonghuzhu.com, REJECT
-;HOST-SUFFIX, byteimg.com, REJECT
 HOST-KEYWORD, xxshuyuan, REJECT
 HOST-KEYWORD, haowanyou, REJECT
 HOST-KEYWORD, dat8, REJECT
@@ -174,7 +157,7 @@ HOST-KEYWORD, lieyou, REJECT
 HOST-KEYWORD, 789htbet, REJECT
 HOST-KEYWORD, mdapp09, REJECT
 HOST-KEYWORD, juruigj, REJECT
-;HOST-KEYWORD, mmiyue, REJECT
+
 
 # pornhub.com
 HOST-SUFFIX, etahub.com, REJECT
@@ -183,8 +166,6 @@ HOST-SUFFIX, evtubescms.phncdn.com, REJECT
 # www.hptoon.com
 HOST-SUFFIX, 22c.in, REJECT
 HOST-SUFFIX, imgxxx.shunxincar.cn, REJECT
-;HOST-SUFFIX, cc58.oss-cn-beijing.aliyuncs.com, REJECT
-;HOST-SUFFIX, oss-accelerate.aliyuncs.com, REJECT
 HOST-SUFFIX, kk.braincf.com, REJECT
 HOST-SUFFIX, run.haireig.com, REJECT
 HOST-SUFFIX, d.zxptw.cn, REJECT
