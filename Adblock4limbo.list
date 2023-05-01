@@ -17,12 +17,6 @@ HOST-SUFFIX, js.wpushsdk.com, REJECT
 HOST-SUFFIX, 9e77b6e6e2.2e3f31faae.com, REJECT
 HOST-SUFFIX, playersb.com, REJECT
 
-# https://www.tvc.cc/
-HOST-SUFFIX, 42yenxh.cn, REJECT
-HOST-SUFFIX, dwyhup.cn, REJECT
-HOST-SUFFIX, netdjs.net, REJECT
-HOST-SUFFIX, pc.stgowan.com, REJECT
-
 # https://avple.tv/
 HOST-SUFFIX, tapioni.com, REJECT
 HOST-SUFFIX, 107iwh.cn, REJECT
@@ -71,28 +65,6 @@ HOST-KEYWORD, asewlfjqwlflkew, REJECT
 HOST-SUFFIX, tyrantdb.com, REJECT
 HOST-SUFFIX, adserve.work, REJECT
 
-# nfmovies.com 奈菲影视
-HOST-KEYWORD, brushshopy, REJECT
-HOST-KEYWORD, onenews, REJECT
-HOST-SUFFIX, s96.cnzz.com, REJECT
-;HOST-SUFFIX, yabo729.com, REJECT
-
-# m.pianku.me/ 手机片库网
-;HOST-SUFFIX, xn--xhq9mt12cf5v.xn--io0a7i:4443, REJECT
-;HOST-KEYWORD, xn--2qux23c9ziyrq, REJECT
-HOST-SUFFIX, xn--3bs795g.zone, REJECT
-HOST-SUFFIX, xn--2qux23c9ziyrq.plus, REJECT
-HOST-SUFFIX, xn--2qux23c9ziyrq.club, REJECT
-HOST-SUFFIX, xn--xhq9mt12cf5v.xn--io0a7i, REJECT
-HOST-SUFFIX, ddmax20.xyz, REJECT
-;HOST-SUFFIX, www.avple.video, REJECT
-HOST-SUFFIX, xn--3bs795g.link, REJECT
-HOST-SUFFIX, show.suning.beer, REJECT
-HOST-SUFFIX, www.govshenzhen.cn, REJECT
-HOST-SUFFIX, mm9842.com, REJECT
-HOST-KEYWORD, e2wysbacctt1, REJECT
-;HOST-SUFFIX, streamtape.com, REJECT
-
 # netflav.com Netflav
 HOST-SUFFIX, maphuahin.com, REJECT
 HOST-SUFFIX, ggsfq.com, REJECT
@@ -110,17 +82,6 @@ HOST-SUFFIX, regulationprivilegescan.top, REJECT
 HOST-SUFFIX, in-page-push.com, REJECT
 HOST-SUFFIX, farmcrapsubsist.com, REJECT
 
-# avgle.me
-HOST-SUFFIX, jads.co, REJECT
-HOST-SUFFIX, adxadserv.com, REJECT
-HOST-SUFFIX, moatads.com, REJECT
-HOST-SUFFIX, juicyads.in, REJECT
-HOST-SUFFIX, dtscout.com, REJECT
-
-# dilili.tv
-HOST-SUFFIX, 51.la, REJECT
-HOST-SUFFIX, 51daeka.com, REJECT
-
 # porn
 HOST-SUFFIX, trafficjunky.com, REJECT
 
@@ -129,35 +90,9 @@ HOST-SUFFIX, adserver.juicyads.com, REJECT
 HOST-SUFFIX, poweredby.jads.co, REJECT
 HOST-SUFFIX, jads.co, REJECT
 
-# www.cocomanhua.com
-HOST-SUFFIX, exdynsrv.com, REJECT
-HOST-SUFFIX, d227cncaprzd7y.cloudfront.net, REJECT
-HOST-SUFFIX, d10lumateci472.cloudfront.net, REJECT
-
-# www.mfkhm.com
-HOST-SUFFIX, new.xiongzhangad.com, REJECT
-
 # m.yhdm.io
 HOST-SUFFIX, dvzk66.cn, REJECT
 HOST-SUFFIX, pu0glv.cn, REJECT
-
-# hmtv.me
-HOST-SUFFIX, sentry.io, REJECT
-
-# https://www.zhenbuka.com/
-HOST-KEYWORD, dlads, REJECT
-HOST, dagonghuzhu.com, REJECT
-HOST-KEYWORD, xxshuyuan, REJECT
-HOST-KEYWORD, haowanyou, REJECT
-HOST-KEYWORD, dat8, REJECT
-HOST-KEYWORD, 112wan, REJECT
-HOST-KEYWORD, dfkj8, REJECT
-HOST-KEYWORD, mifengv, REJECT
-HOST-KEYWORD, lieyou, REJECT
-HOST-KEYWORD, 789htbet, REJECT
-HOST-KEYWORD, mdapp09, REJECT
-HOST-KEYWORD, juruigj, REJECT
-
 
 # pornhub.com
 HOST-SUFFIX, etahub.com, REJECT
@@ -191,10 +126,6 @@ HOST-SUFFIX, bhichong.com, REJECT
 HOST-SUFFIX, tskdfjksldk.sdhsgcj.com, REJECT
 HOST-SUFFIX, haoyuntj.com, REJECT
 
-# https://m.biquge.com.cn/
-HOST-SUFFIX, bizhixiang.cn, REJECT
-HOST-SUFFIX, jspassport.ssl.qhimg.com, REJECT
-
 # https://gimy.tv/ 剧迷tv
 HOST-SUFFIX, ads.superad.cc, REJECT
 
@@ -209,21 +140,6 @@ HOST-SUFFIX, blastcahs.com, REJECT
 # javtsunami.com
 HOST-SUFFIX, alexametrics.com, REJECT
 
-# https://hpjav.tv/ JAVFAN #NSFW
-HOST-SUFFIX, wpncdn.com, REJECT
-HOST-SUFFIX, exosrv.com, REJECT
-HOST-SUFFIX, jads.co, REJECT
-HOST-KEYWORD, toateeli, REJECT
-HOST-KEYWORD, greenplasticdua, REJECT
-HOST-KEYWORD, bongacash, REJECT
-HOST-KEYWORD, bngpt, REJECT
-HOST-KEYWORD, stunninglover, REJECT
-HOST-KEYWORD, jads, REJECT
-HOST-KEYWORD, trwl1, REJECT
-;HOST-KEYWORD, vidoza, REJECT
-HOST-KEYWORD, o333o, REJECT
-HOST-SUFFIX, ad.pornimg.xyz, REJECT
-
 # https://javgg.net/
 HOST-SUFFIX, x2sfa.javgg.eu, REJECT
 HOST-SUFFIX, xd3r.javgg.eu, REJECT
@@ -236,25 +152,6 @@ HOST-KEYWORD, adform, REJECT
 HOST-KEYWORD, mathtag, REJECT
 HOST-KEYWORD, pagespeed-mod, REJECT
 HOST-KEYWORD, in-page-push, REJECT
-
-# www.tz659.com
-HOST, nggfe.fdgem.com, REJECT
-HOST, rthmnj.xyz, REJECT
-HOST-SUFFIX, jknmthwd.xyz, REJECT
-HOST, koprtgh.omhoa.com, REJECT
-HOST, hbftgh.ibjkqnhjwd.xyz, REJECT
-HOST, kmopoer.jkbuymjhp.xyz, REJECT
-HOST, kmef.ikjwmfeds.xyz, REJECT
-HOST, hnrtg.iujkegbpo.xyz, REJECT
-HOST-SUFFIX, tcc.qscvli.com, REJECT
-HOST, fg.knlk2md.cn, REJECT
-HOST, tg.gtlpaj.com, REJECT
-HOST-SUFFIX, gtlpaj.com, REJECT
-HOST-SUFFIX, knlk2md.cn, REJECT
-HOST-SUFFIX, 7tad.cn, REJECT
-HOST, tc.vpubmi.com, REJECT
-HOST-SUFFIX, qoiw1xw.cn, REJECT
-HOST-SUFFIX, purpleads.io, REJECT
 
 # m.yhpdm.com
 HOST-SUFFIX, fg.knlk2md.cn, REJECT
