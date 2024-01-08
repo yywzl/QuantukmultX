@@ -1,0 +1,151 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+tproxy-port: 7893
+mixed-port: 7890
+allow-lan: true
+bind-address: '*'
+mode: rule
+log-level: silent
+external-controller: '127.0.0.1:9090'
+dns:
+ enable: true
+ ipv6: false
+ default-nameserver: [223.5.5.5, 119.29.29.29]
+ enhanced-mode: fake-ip
+ fake-ip-range: 198.18.0.1/16
+ use-hosts: true
+ nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
+ fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query',
+'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
+ fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
+proxies:
+ - { name: 'å‰©ä½™æµé‡ï¼š-32.35 GB', type: ss, server: sgc1.100860000.xyz, port:
+31126, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-8fedb26336b9,
+udp: true }
+ - { name: 'è·ç¦»ä¸‹æ¬¡é‡ç½®å‰©ä½™ï¼š13 å¤©', type: ss, server: sgc1.100860000.xyz,
+port: 31126, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-
+8fedb26336b9, udp: true }
+ - { name: å¥—é¤åˆ°æœŸï¼š2024-03-19, type: ss, server: sgc1.100860000.xyz, port:
+31126, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-8fedb26336b9,
+udp: true }
+ - { name: æ–°åŠ å¡1-ä¼˜åŒ–, type: ss, server: sgc1.100860000.xyz, port: 31126,
+cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-8fedb26336b9, udp: true
+}
+ - { name: æ–°åŠ å¡2-æµåª’ä½“-Tiktok, type: ss, server: sgd1-s43-nhzrc.100860000.xyz,
+port: 31143, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-
+8fedb26336b9, udp: true }
+ - { name: æ–°åŠ å¡3-æ²¹ç®¡åŽ»å¹¿å‘Šï¼ˆä¼˜åŒ–ï¼‰, type: ss, server: sgf1-s36-
+xnxmt.100860000.xyz, port: 31136, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-
+4809-9578-8fedb26336b9, udp: true }
+ - { name: æ–°åŠ å¡4-ä¸“çº¿ã€3å€æ¶ˆè€—ã€‘UDP, type: ss, server: sge1-s50-
+mkstg.100860000.xyz, port: 31150, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-
+4809-9578-8fedb26336b9, udp: true }
+ - { name: æ—¥æœ¬1-ä¼˜åŒ–, type: ss, server: jpb1.100860000.xyz, port: 31113, cipher:
+chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-8fedb26336b9, udp: true }
+ - { name: æ—¥æœ¬2-ä¼˜åŒ–, type: ss, server: jpa1.100860000.xyz, port: 31104, cipher:
+chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-8fedb26336b9, udp: true }
+ - { name: æ—¥æœ¬3-æ²¹ç®¡åŽ»å¹¿å‘Šï¼ˆä¼˜åŒ–ï¼‰, type: ss, server: jpc1-s44-
+dafcj.100860000.xyz, port: 31144, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-
+4809-9578-8fedb26336b9, udp: true }
+ - { name: æ—¥æœ¬4-ä¸“çº¿ã€3å€çŽ‡ã€‘UDP, type: ss, server: jpd1-s51-
+cnawy.100860000.xyz, port: 31151, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-
+4809-9578-8fedb26336b9, udp: true }
+ - { name: é¦™æ¸¯1-ä¼˜åŒ–ã€1.5å€æ¶ˆè€—ã€‘, type: ss, server: hkb1-s23-
+oudua.100860000.xyz, port: 31123, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-
+4809-9578-8fedb26336b9, udp: true }
+ - { name: é¦™æ¸¯2-æµåª’ä½“ã€1.4å€æ¶ˆè€—ã€‘, type: ss, server: hke1.100860000.xyz,
+port: 31128, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-
+8fedb26336b9, udp: true }
+ - { name: é¦™æ¸¯3-åŽŸç”Ÿã€1.5å€æ¶ˆè€—ã€‘, type: ss, server: hkt1.100860000.xyz,
+port: 31121, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-
+8fedb26336b9, udp: true }
+ - { name: é¦™æ¸¯4-ä¸“çº¿ã€3å€æ¶ˆè€—ã€‘UDP, type: ss, server: hkg1-
+s32daa.100860000.xyz, port: 31131, cipher: chacha20-ietf-poly1305, password: a8e9c2dd2570-4809-9578-8fedb26336b9, udp: true }
+ - { name: é¦™æ¸¯5-ä¸“çº¿ã€3.5å€æ¶ˆè€—ã€‘UDP, type: ss, server: hkf1.100860000.xyz,
+port: 31116, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-
+8fedb26336b9, udp: true }
+- { name: å°æ¹¾1-TikTokæµåª’ä½“, type: ss, server: twb1.100860000.xyz, port: 31158,
+cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-8fedb26336b9, udp: true
+}
+ - { name: å°æ¹¾2-ChatGPTæµåª’ä½“, type: ss, server: twb2-s58-hxnka.100860000.xyz,
+port: 31158, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-
+8fedb26336b9, udp: true }
+ - { name: å°æ¹¾3-å®¶å®½-GPT-é™é€Ÿ, type: ss, server: twa1.100860000.xyz, port:
+31107, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-8fedb26336b9,
+udp: true }
+ - { name: å°æ¹¾4-UDP-3.5å€æ¶ˆè€—-é™é€Ÿ, type: ss, server: twc1-s60-
+ltuhs.100860000.xyz, port: 31160, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-
+4809-9578-8fedb26336b9, udp: true }
+ - { name: é¦™æ¸¯6-9å€â—ï¸ç‰¹ä¸“çº¿è¶…æ—¶å¯ç”¨UDPç¦è§†é¢‘, type: ss, server:
+hka1.100860000.xyz, port: 31109, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-
+4809-9578-8fedb26336b9, udp: true }
+ - { name: ç¾Žå›½1-åŽŸç”Ÿ-ç›æ¹–åŸŽ, type: ss, server: usa1-s03-wbonw.100860000.xyz,
+port: 31103, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-
+8fedb26336b9, udp: true }
+ - { name: ç¾Žå›½2-åŽŸç”Ÿ-ç›æ¹–åŸŽ2, type: ss, server: usa1.100860000.xyz, port:
+31103, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-8fedb26336b9,
+udp: true }
+ - { name: ç¾Žå›½3-ä¼˜åŒ–-è¥¿é›…å›¾, type: ss, server: usc1.100860000.xyz, port: 31138,
+cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-8fedb26336b9, udp: true
+}
+ - { name: ç¾Žå›½4-UDPæ”¯æŒ-é™é€Ÿ, type: ss, server: usc2-s38-jcolu.100860000.xyz,
+port: 31138, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-
+8fedb26336b9, udp: true }
+ - { name: ç¾Žå›½5-ä¼˜åŒ–-æ´›æ‰çŸ¶, type: ss, server: usb1-s18-bsufs.100860000.xyz,
+port: 31118, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-
+8fedb26336b9, udp: true }
+ - { name: éŸ©å›½-ä¼˜åŒ–, type: ss, server: kra1.100860000.xyz, port: 31101, cipher:
+chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-8fedb26336b9, udp: true }
+ - { name: è¶Šå—-TikToKæ”¯æŒ, type: ss, server: vna1.100860000.xyz, port: 31108,
+cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-8fedb26336b9, udp: true
+}
+ - { name: é©¬æ¥è¥¿äºš-å®¶å®½-2å€æ¶ˆè€—-TikToK, type: ss, server: mya1-s40-
+ikobx.100860000.xyz, port: 31140, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-
+4809-9578-8fedb26336b9, udp: true }
+ - { name: æ³°å›½-ä¼˜åŒ–-GPT, type: ss, server: tha1.100860000.xyz, port: 31114,
+cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-8fedb26336b9, udp: true
+}
+ - { name: è‹±å›½-ä¼˜åŒ–, type: ss, server: gba1-s61-ibxyq.100860000.xyz, port: 31161,
+cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-8fedb26336b9, udp: true
+}
+ - { name: å¾·å›½-ä¼˜åŒ–, type: ss, server: dea1.100860000.xyz, port: 31115, cipher:
+chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-8fedb26336b9, udp: true }
+ - { name: æ¾³å¤§åˆ©äºš-ä¼˜åŒ–, type: ss, server: aua1-s30-pusad.100860000.xyz, port:
+31130, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-8fedb26336b9,
+udp: true }
+ - { name: åœŸè€³å…¶-ä¼˜åŒ–, type: ss, server: tra1.100860000.xyz, port: 31110, cipher:
+chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-8fedb26336b9, udp: true }
+ - { name: å°åº¦-1.5å€æ¶ˆè€—-å°å¸¦å®½, type: ss, server: ina1.100860000.xyz, port:
+31106, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-8fedb26336b9,
+udp: true }
+ - { name: ä¿„ç½—æ–¯-æ²¹ç®¡åŽ»å¹¿å‘Š-x1.1å€çŽ‡, type: ss, server: rua1.100860000.xyz,
+port: 31111, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-
+8fedb26336b9, udp: true }
+ - { name: æŒªå¨-X1.5å€çŽ‡-å°å¸¦å®½, type: ss, server: noa1-s32-ikkgb.100860000.xyz,
+port: 31132, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-
+8fedb26336b9, udp: true }
+ - { name: è‘¡è„ç‰™-1.5å€æ¶ˆè€—-å°å¸¦å®½, type: ss, server: pta1-s34-
+vuumz.100860000.xyz, port: 31134, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-
+4809-9578-8fedb26336b9, udp: true }
+ - { name: ç‘žå…¸-1.5å€æ¶ˆè€—-å°å¸¦å®½, type: ss, server: sea1-s33-
+njsxp.100860000.xyz, port: 31133, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-
+4809-9578-8fedb26336b9, udp: true }
+ - { name: é˜¿æ ¹å»·-1.5å€æ¶ˆè€—-å°å¸¦å®½, type: ss, server: ara1-s41-
+ukujs.100860000.xyz, port: 31141, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-
+4809-9578-8fedb26336b9, udp: true }
+ - { name: åŸƒåŠ-1.5å€æ¶ˆè€—-å°å¸¦å®½, type: ss, server: ega1-s48-
+bzrhe.100860000.xyz, port: 31148, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-
+4809-9578-8fedb26336b9, udp: true }
+ - { name: å¡å¡”å°”-1.5å€æ¶ˆè€—-å°å¸¦å®½, type: ss, server: qaa1-s59-
+paowr.100860000.xyz, port: 31159, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-
+4809-9578-8fedb26336b9, udp: true }
+ - { name: å—æžæ´²-1.5å€æ¶ˆè€—-å°å¸¦å®½, type: ss, server: aqa1-s47-
+mftfq.100860000.xyz, port: 31147, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-
+4809-9578-8fedb26336b9, udp: true }
+ - { name: æ¾³é—¨-3.5å€çŽ‡æ¶ˆè€—-å°å¸¦å®½, type: ss, server: moa1-s49-
+fovlr.100860000.xyz, port: 31149, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-
+4809-9578-8fedb26336b9, udp: true }
+ - { name: æ°¸ä¹…ç½‘å€go.maxbyte.top, type: ss, server: sgc1.100860000.xyz, port:
+31126, cipher: chacha20-ietf-poly1305, password: a8e9c2dd-2570-4809-9578-8fedb26336b9,
+udp: true }
