@@ -1,15 +1,310 @@
 proxies:
-- name: 267|Singapore 02 Netflix T | x3.0
-  password: d16d869d-d65d-4167-a2cc-5a4f336b9c16
-  port: 11042
-  server: x2.xiaomi-api.xyz
-  skip-cert-verify: true
-  type: trojan
+ -name: 🇧🇬 BG | VCCL Cloud Private
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 633
+  server: neweur.upperlay.xyz
+  type: ss
   udp: true
-- name: 267|Singapore 01 Netflix T | x1.0
-  password: d16d869d-d65d-4167-a2cc-5a4f336b9c16
-  port: 11242
-  server: ccc.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  type: trojan
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+ -name: 🇨🇦 CA | Free Range Cloud
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 570
+  server: neweur.upperlay.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+ -name: 🇬🇧 GB | Iomart Cloud Services
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 635
+  server: neweur.upperlay.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+ -name: 🇬🇧 GB | Iomart Cloud Services 2
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 634
+  server: neweur.upperlay.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+ -name: 🇭🇰 HK | HK Cable TV
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 565
+  server: cmthkd-d.net-lag.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+ -name: 🇭🇰 HK | Hong Kong Broadband Network
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 564
+  server: rcgm.exitlag.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+ -name: 🇭🇰 HK | Hong Kong Broadband Network 2
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 565
+  server: cnrefhk2.exitlag.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+ -name: 🇭🇰 HK | Hong Kong Cable TV Ltd - Cable Multi-Media Services
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 563
+  server: cmthkd-d.net-lag.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+ -name: 🇭🇰 HK | Hong Kong Telecommunications (HKT) Limited
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 565
+  server: cnexhk.nesx.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇭🇰 HK | Hong Kong Telecommunications (HKT) Limited 2
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 564
+  server: cnexhk.nesx.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇭🇰 HK | Hong Kong Telecommunications (HKT) Limited 3
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 562
+  server: shcmzz1hk.upperlay.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇭🇰 HK | Hong Kong Telecommunications (HKT) Limited 4
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 563
+  server: rcgm.exitlag.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇭🇰 HK | Hong Kong Telecommunications (HKT) Limited 5
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 564
+  server: cmthkd-d.net-lag.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇭🇰 HK | Hong Kong Telecommunications (HKT) Limited 6
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 563
+  server: cmrefhk1.exitlag.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇭🇰 HK | Hong Kong Telecommunications (HKT) Limited 7
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 565
+  server: cminit.exitlag.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇭🇰 HK | Hong Kong Telecommunications (HKT) Limited 8
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 566
+  server: cminit.exitlag.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇭🇰 HK | Netvigator
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 563
+  server: cnexhk.nesx.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇭🇰 HK | Netvigator 2
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 564
+  server: cnrefhk2.exitlag.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇭🇰 HK | Netvigator 3
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 567
+  server: cminit.exitlag.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇭🇰 HK | Netvigator Home Broadband
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 564
+  server: cmlayer2.exitlag.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇭🇰 HK | Netvigator Home Broadband 2
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 565
+  server: cmlayer2.exitlag.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇮🇹 IT | Stark Industries Solutions
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 637
+  server: neweur.upperlay.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇯🇵 JP | Oracle Cloud Infrastructure (ap-tokyo-1)
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 566
+  server: aisalayer-a.upperlay.xyz
+  type: ss
+  udp: true
+  client-fingerprint: chrome
+  -name: 🇷🇺 RU | PQ HOSTING S.R.L
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 631
+  server: neweur.upperlay.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇷🇺 RU | PQ HOSTING S.R.L 2
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 630
+  server: neweur.upperlay.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇸🇬 SG | Oracle Cloud
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 571
+  server: aisalayer-b.upperlay.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇸🇬 SG | Oracle Cloud 2
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 570
+  server: aisalayer-b.upperlay.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇸🇬 SG | Oracle Cloud 3
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 569
+  server: aisalayer-b.upperlay.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇸🇬 SG | Oracle Corporation
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 568
+  server: aisalayer-a.upperlay.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇸🇬 SG | Oracle Corporation 2
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 569
+  server: aisalayer-a.upperlay.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇺🇸 US | US Dedicated
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 574
+  server: usastart-a.upperlay.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇺🇸 US | US Dedicated 2
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 573
+  server: usastart-a.upperlay.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇺🇸 US | US Dedicated 3
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 575
+  server: usastart-a.upperlay.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇺🇸 US | US Dedicated 4
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 572
+  server: usastart-a.upperlay.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇺🇸 US | US Dedicated 5
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 571
+  server: usastart-a.upperlay.xyz
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇺🇸 US | US Dedicated 6
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 571
+  server: usastarter-b.inlayer.org
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  -name: 🇺🇸 US | US Dedicated 7
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 570
+  server: usastarter-b.inlayer.org
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+ -name: 🇺🇸 US | US Dedicated 8
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 573
+  server: usastarter-b.inlayer.org
+  type: ss
+  udp: true
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+ -name: 🇺🇸 US | US Dedicated 9
+  password: 0c92f84e-f345-4f83-b98d-3c89b7c310dd
+  port: 572
+  server: usastarter-b.inlayer.org
+  type: ss
   udp: true
